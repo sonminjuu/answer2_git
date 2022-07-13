@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>answer_2</title>
+</head>
+
+<body>
+    <div class="answer__wrap">
+        <div class="answer__wrapImg">
+            <img src="img/anwer.png" class="answer__wrap__img">
+        </div>
+        <div>
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="answer__tit">
+                            <h4 class="answer__tit__h4">문제 : 안녕하세요</h4>
+                            <h2 class="answer__tit__h2">정답은
+                                <span class="answer__tit__span">?</span>
+                                <span class="answer__tit__span">?</span>
+                                <span class="answer__tit__span">?</span>
+                                입니다</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="answer__tit">
+                            <h4 class="answer__tit__h4">문제 : 안녕하십니까</h4>
+                            <h2 class="answer__tit__h2">정답은
+                                <span class="answer__tit__span">?</span>
+                                <span class="answer__tit__span">?</span>
+                                <span class="answer__tit__span">?</span>
+                                입니다</h2>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="answer__tit">
+                            <h4 class="answer__tit__h4">문제 : 안녕하셨어요</h4>
+                            <h2 class="answer__tit__h2">정답은
+                                <span class="answer__tit__span">?</span>
+                                <span class="answer__tit__span">?</span>
+                                <span class="answer__tit__span">?</span>
+                                입니다</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="answer__number">
+                <div class="answer__numbers">
+                    <div class="answer__numbers__box">
+                        <div class="answer__numbers__round">
+                            <span class="answer__numbers__first">01</span>
+                        </div>
+                        <span class="answer__numbers__second">오답입니다.</span>
+                    </div>
+                </div>
+                <div class="answer__numbers">
+                    <div class="answer__numbers__box">
+                        <div class="answer__numbers__round">
+                            <span class="answer__numbers__first">02</span>
+                        </div>
+                        <span class="answer__numbers__second">오답입니다.</span>
+                    </div>
+                </div>
+                <div class="answer__numbers">
+                    <div class="answer__numbers__box answer__numbers__act">
+                        <div class="answer__numbers__round">
+                            <span class="answer__numbers__first answer__numbers__act__number">03</span>
+                        </div>
+                        <span class="answer__numbers__second">정답입니다.</span>
+                    </div>
+                </div>
+                <div class="answer__numbers">
+                    <div class="answer__numbers__box">
+                        <div class="answer__numbers__round">
+                            <span class="answer__numbers__first">04</span>
+                        </div>
+                        <span class="answer__numbers__second">오답입니다.</span>
+                    </div>
+                </div>
+            </div>
+            <div class="answer__wrap__btn">
+                <button type="button">제출</button>
+                <a href="#" class="answer__wrap__a">홈으로 돌아가기</a>
+            </div>
+        </div>
+
+    </div>
+
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            pagination: {
+                el: ".swiper-pagination",
+            },
+        });
+    </script>
+</body>
+
+</html>

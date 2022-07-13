@@ -1,0 +1,126 @@
+body{
+    min-height: calc(var(--vh, 1vh) * 100);
+}
+
+.answer__wrap{
+    width: 100%;
+    height: 100vh;
+    background-color: #A2DFFE;
+    overflow: hidden;
+    min-height: calc(var(--vh, 1vh) * 100);
+}
+
+.answer__wrapImg{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.answer__wrap__img{
+    width: 380px;
+    height: auto;
+}
+
+.answer__tit{
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.answer__tit__h4{
+    font-family: 'GmarketSansBold';
+    font-size: 18px;
+    color: #3e4056;
+    opacity: 90%;
+    margin-bottom: 36px;
+}
+
+.answer__tit__h2{
+    font-family: 'GmarketSansBold';
+    font-size: 28px;
+    line-height: 2;
+    color: #3e4056;
+}
+
+.answer__tit__span{
+    background: #58C6FF;
+    padding: 8px 14px 6px 14px;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.swiper-pagination-bullet,
+.swiper-pagination-bullet-active{
+    background-color: #3E4056 !important;
+}
+
+
+.answer__number{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.answer__numbers{
+    width: 50%;
+    text-align: center;
+    padding: 14px 0px;
+}
+
+.answer__numbers__box{
+    width: 80%;
+    margin: 0 auto;
+    background-color: #D5EFFC;
+    margin-bottom: 20px;
+    height: 44px;
+    line-height: 48px;
+    border-radius: 12px;
+    font-family: 'GmarketSansBold';
+    color: #3e4056;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    padding-bottom: 2px;
+}
+
+.answer__numbers__act:active{
+    background-color: #58C6FF;
+    color: #ffffff;
+}
+
+.answer__numbers__act__number{
+    color: #3e4056;
+}
+
+.answer__numbers__round{
+    display: inline-block;
+    background-color: #ffffff;
+    border-radius: 20px;
+    height: 30px;
+    line-height: 30px;
+    padding: 3px 6px 0px 6px;
+    box-shadow: rgb(204 219 232) 0px 2px 3px 1px inset, rgb(255 255 255 / 50%) -3px -3px 6px 1px inset;
+}
+
+.answer__wrap__btn{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.answer__wrap__btn>button{
+    width: 122px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+    background: #58C6FF;
+    color: #ffffff;
+    font-family: 'GmarketSansBold';
+    font-size: 1em;
+    line-height: 40px;
+    margin-bottom: 40px;
+}
+
+.answer__wrap__btn>a{
+    font-size: 12px;
+    font-family: 'GmarketSansMedium';
+    color: #3e4056;
+}
